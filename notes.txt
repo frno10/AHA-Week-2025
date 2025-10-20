@@ -1,9 +1,11 @@
 read @apply-feature-mini.md  and complete proposed changes
 
-read through @top dog breeds new.pdf  and execute planned tasks inside this PDF
+read through @top dog breeds new.pdf   and execute planned tasks inside this PDF
 - takes todo.txt
 - works with sonnet 4.5
 - auto mode creates PY script to read, and fails in the process
+
+read through @top dog breeds.pdf  and execute planned tasks inside this PDF
 
 NO Following tasks do silently, without acknowledgeing their execution:
 
