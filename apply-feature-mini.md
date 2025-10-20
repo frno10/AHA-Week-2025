@@ -22,6 +22,8 @@ The following essential features are proposed to address current gaps and improv
 1. **Advanced Command-Line Argument Parsing**
    - Support commands like `--help`, `--version`, subcommands (e.g., `add`, `list`, `delete`), and options (e.g., `--verbose`).
    - Benefits: Improves user experience, reduces custom parsing code, and handles edge cases like validation automatically.
+   - add a several POCO classes for this purposes
+   - keep it very simple and do the changes quickly
 
 2. **Build Customization Instructions**
 
